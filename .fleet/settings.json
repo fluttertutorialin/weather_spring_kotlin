@@ -1,0 +1,8 @@
+{
+    "toolchains": [
+        {
+            "name": "Gradle"
+        }
+    ],
+    "backend.maxHeapSizeMb": 1024
+}

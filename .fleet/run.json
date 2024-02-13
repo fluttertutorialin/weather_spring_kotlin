@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "spring-boot",
+            "name": "weather",
+            "mainClass": "com.iodigital.weather.WeatherApplicationKt",
+            "module": "weather.main",
+            "options": [
+                "-XX:+AllowRedefinitionToAddDeleteMethods",
+                "-XX:TieredStopAtLevel=1",
+                "-Dspring.output.ansi.enabled=always",
+                "-Dfile.encoding=UTF-8"
+            ]
+        },
+        {
+            "type": "gradle",
+            "name": "test",
+            "tasks": [
+                "test"
+            ],
+            "args": [
+                "--console=plain"
+            ]
+        }
+    ]
+}
